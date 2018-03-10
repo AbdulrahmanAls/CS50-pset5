@@ -1,0 +1,23 @@
+0.  A lung disease that is otherwise known as silicosis.
+
+1.Return resource usage statistics for the calling process,
+which is the sum of resources used by all threads in the
+process.
+  
+2.  16 members .
+
+3.  because we pass struct not variable, we pass the address of the struct .
+
+4.  first, we open file fp to read the file,
+when the for loop start work c is get the first letter from the file and put the Cursor then while check if its alpha or its (') in the middle of the word 
+if its alpha put a letter in the word  array and increase the index 
+if you get the number in word ignore the word and start new word if you don't get anything  that means you finish the word and put \0 to the end of the word 
+and increment the word  
+and calculate the time you get the word  
+if there is misspelled print the word and count how many words you get .
+
+5.  because we want to read word by word to check its misspelled or not 
+fscanf return how many words in the file and the number .
+
+6.  const its mean you can't change 
+we don't want to change the word we check and the dictionary 
